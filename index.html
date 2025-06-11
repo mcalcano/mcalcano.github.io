@@ -1,7 +1,297 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Electric Pulse Band</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo"><span class="logo-primary">Electric</span> Pulse</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook" class="social-link fb"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+        <a href="#" aria-label="Instagram" class="social-link insta"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+        <a href="#" aria-label="YouTube" class="social-link yt"><img src="assets/icons/youtube.svg" alt="YouTube" /></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-overlay">
+      <h1><span class="bold">Electric</span> <span class="highlight">Pulse</span></h1>
+      <p>High-energy rock band delivering electrifying performances that ignite crowds and create unforgettable musical experiences.</p>
+      <div class="hero-buttons">
+        <a href="#events" class="btn btn-primary">View Upcoming Shows</a>
+        <a href="#media" class="btn btn-secondary">Listen to Our Music</a>
+      </div>
+      <div class="hero-social">
+        <a href="#" aria-label="Facebook" class="social-link fb"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+        <a href="#" aria-label="Twitter" class="social-link tw"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+        <a href="#" aria-label="Instagram" class="social-link insta"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container section-container">
+      <h2 class="section-title">About Electric Pulse</h2>
+      <div class="about-content">
+        <img class="about-image" src="assets/images/singer1.jpg" alt="Lead Singer Performing" />
+        <div class="about-text">
+          <p>
+            Formed in 2018, Electric Pulse has been electrifying audiences with our unique blend of alternative rock, progressive metal, and electronic elements. 
+            Our high-energy performances and innovative sound have earned us a dedicated following across the region.
+          </p>
+          <p>
+            With three studio albums and countless live performances under our belt, we continue to push the boundaries of modern rock music while staying true to our roots of raw, emotional storytelling through powerful melodies and driving rhythms.
+          </p>
+          <p class="genre-list">
+            <span class="genre alt">Alternative Rock</span>
+            <span class="genre prog">Progressive Metal</span>
+            <span class="genre elec">Electronic</span>
+          </p>
+        </div>
+      </div>
+      <div class="band-members">
+        <div class="member-card">
+          <img src="assets/images/fitness.jpg" alt="Alex Rivera" />
+          <h4>Alex Rivera</h4>
+          <span class="role orange">Lead Vocals</span>
+        </div>
+        <div class="member-card">
+          <img src="assets/images/singer1.jpg" alt="Jordan Kim" />
+          <h4>Jordan Kim</h4>
+          <span class="role purple">Lead Guitar</span>
+        </div>
+        <div class="member-card">
+          <img src="assets/images/microphone.jpg" alt="Casey Brooks" />
+          <h4>Casey Brooks</h4>
+          <span class="role orange">Bass Guitar</span>
+        </div>
+        <div class="member-card">
+          <img src="assets/images/fitness.jpg" alt="Morgan Taylor" />
+          <h4>Morgan Taylor</h4>
+          <span class="role purple">Drums</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery Section -->
+  <section id="gallery" class="gallery-section">
+    <div class="container section-container">
+      <h2 class="section-title">Photo Gallery</h2>
+      <p class="section-subtitle">Capturing the energy and passion of our live performances</p>
+      <div class="gallery-grid">
+        <img src="assets/images/singer1.jpg" alt="Live performance 1" />
+        <img src="assets/images/microphone.jpg" alt="Microphone closeup" />
+        <img src="assets/images/band_silhouette.jpg" alt="Band silhouette" />
+        <img src="assets/images/fitness.jpg" alt="Live performance 2" />
+        <img src="assets/images/singer1.jpg" alt="Live performance 3" />
+        <img src="assets/images/concert2.jpg" alt="Concert crowd" />
+      </div>
+      <div class="gallery-share">
+        <p>Share our photos:</p>
+        <a href="#" aria-label="Facebook" class="share-icon fb"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+        <a href="#" aria-label="Twitter" class="share-icon tw"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+        <a href="#" aria-label="Instagram" class="share-icon insta"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="events-section">
+    <div class="container section-container">
+      <h2 class="section-title">Upcoming Events</h2>
+      <p class="section-subtitle">Don't miss our electrifying live performances</p>
+
+      <div class="event-list">
+        <article class="event-card">
+          <div class="event-date orange-bg">
+            <span class="month">DEC</span>
+            <span class="day">15</span>
+          </div>
+          <div class="event-details">
+            <h3 class="event-name">Electric Pulse Live at The Underground</h3>
+            <p class="event-meta">
+              <span class="icon">📍</span> The Underground - Downtown
+              <span class="icon">⏰</span> 8:00 PM
+              <span class="icon">🎟️</span> $25
+            </p>
+            <p class="event-description">Join us for an unforgettable night of rock and roll featuring songs from our latest album plus fan favorites.</p>
+          </div>
+          <div class="event-actions">
+            <a href="#" class="btn btn-primary">Get Tickets</a>
+            <a href="#" class="btn btn-share">Share</a>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <div class="event-date purple-bg">
+            <span class="month">JAN</span>
+            <span class="day">20</span>
+          </div>
+          <div class="event-details">
+            <h3 class="event-name">New Year Rock Festival</h3>
+            <p class="event-meta">
+              <span class="icon">📍</span> City Park Amphitheater
+              <span class="icon">⏰</span> 7:00 PM
+              <span class="icon">🎟️</span> $35
+            </p>
+            <p class="event-description">Headlining the annual New Year Rock Festival with special guests and surprise collaborations.</p>
+          </div>
+          <div class="event-actions">
+            <a href="#" class="btn btn-primary">Get Tickets</a>
+            <a href="#" class="btn btn-share">Share</a>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <div class="event-date orange-bg">
+            <span class="month">FEB</span>
+            <span class="day">14</span>
+          </div>
+          <div class="event-details">
+            <h3 class="event-name">Valentine's Rock Night</h3>
+            <p class="event-meta">
+              <span class="icon">📍</span> Harmony Hall
+              <span class="icon">⏰</span> 8:30 PM
+              <span class="icon">🎟️</span> $30
+            </p>
+            <p class="event-description">Intimate acoustic performance featuring our ballads and fan-requested songs.</p>
+          </div>
+          <div class="event-actions">
+            <a href="#" class="btn btn-primary">Get Tickets</a>
+            <a href="#" class="btn btn-share">Share</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media" class="media-section">
+    <div class="container section-container">
+      <h2 class="section-title">Music & Videos</h2>
+      <p class="section-subtitle">Experience our sound through official music videos and live performances</p>
+
+      <div class="video-grid">
+        <div class="video-card orange-bg">
+          <div class="video-icon">▶️</div>
+          <h4>Electric Dreams - Official Music Video</h4>
+          <a href="#" class="btn btn-primary">Watch Now</a>
+          <p class="video-description">Our latest single featuring stunning visuals and our signature sound.</p>
+          <p class="video-views">2.1M views <button class="icon-btn">🔗</button></p>
+        </div>
+
+        <div class="video-card purple-bg">
+          <div class="video-icon">▶️</div>
+          <h4>Live at Sunset Festival 2023</h4>
+          <a href="#" class="btn btn-purple">Watch Now</a>
+          <p class="video-description">Full live performance from our headlining set at Sunset Festival.</p>
+          <p class="video-views">850K views <button class="icon-btn">🔗</button></p>
+        </div>
+      </div>
+
+      <div class="latest-tracks">
+        <h3>Latest Tracks</h3>
+        <ul class="tracks-list">
+          <li>
+            <button class="play-btn orange-bg">▶️</button>
+            <div class="track-info">
+              <span class="track-name">Electric Dreams</span>
+              <span class="track-album">Voltage Album</span>
+            </div>
+            <span class="track-duration">4:23</span>
+            <button class="icon-btn">🔗</button>
+          </li>
+          <li>
+            <button class="play-btn purple-bg">▶️</button>
+            <div class="track-info">
+              <span class="track-name">Neon Nights</span>
+              <span class="track-album">Voltage Album</span>
+            </div>
+            <span class="track-duration">3:58</span>
+            <button class="icon-btn">🔗</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container section-container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Ready to book us for your venue or event? Let's make some noise together!</p>
+
+      <div class="contact-wrapper">
+        <form class="contact-form" action="" method="post" novalidate>
+          <h3>Booking Inquiry</h3>
+          <input type="text" name="fullname" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="your@email.com" required />
+          <input type="text" name="venue" placeholder="Venue name" />
+          <input type="date" name="eventdate" placeholder="mm/dd/yyyy" />
+          <textarea name="message" placeholder="Tell us about your event..." rows="5"></textarea>
+          <button type="submit" class="btn btn-primary">Send Inquiry</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><span class="contact-icon orange-bg">✉️</span> Email <strong>booking@electricpulse.com</strong></p>
+          <p><span class="contact-icon purple-bg">📞</span> Phone <strong>+1 (555) 123-4567</strong></p>
+          <p><span class="contact-icon orange-bg">📍</span> Based In <strong>Los Angeles, CA</strong></p>
+
+          <h3>Follow Us</h3>
+          <div class="social-follow">
+            <div class="social-item fb">
+              <img src="assets/icons/facebook.svg" alt="Facebook Logo" />
+              <div>
+                <p>Facebook</p>
+                <p>@ElectricPulseBand</p>
+              </div>
+            </div>
+            <div class="social-item insta">
+              <img src="assets/icons/instagram.svg" alt="Instagram Logo" />
+              <div>
+                <p>Instagram</p>
+                <p>@electric_pulse</p>
+              </div>
+            </div>
+            <div class="social-item yt">
+              <img src="assets/icons/youtube.svg" alt="YouTube Logo" />
+              <div>
+                <p>YouTube</p>
+                <p>Electric Pulse</p>
+              </div>
+            </div>
+            <div class="social-item spotify">
+              <img src="assets/icons/spotify.svg" alt="Spotify Logo" />
+              <div>
+                <p>Spotify</p>
+                <p>Electric Pulse</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
