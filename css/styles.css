@@ -728,9 +728,9 @@ body {
 
 /* Contact Info */
 .contact-info {
-    flex: 1 1 350px;
+    flex: 1 1 425px;
     color: #c8d0e7;
-    max-width: 350px;
+    max-width: 425px;
 }
 
 .contact-info h3 {
