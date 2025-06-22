@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Fever Dream Band</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/custom.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
 
   <!-- Navigation -->
@@ -15,10 +18,9 @@
       <a href="#" class="logo"><span class="logo-primary">Fever</span> Dream</a>
       <ul class="nav-links">
         <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#events">Events</a></li>
-        <li><a href="#media">Media</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="social-icons">
@@ -28,12 +30,14 @@
       </div>
     </div>
   </nav>
+  <!-- END Navigation -->
 
   <!-- Hero Section -->
   <header id="home" class="hero">
     <div class="hero-overlay">
       <h1><span class="bold">Fever</span> <span class="highlight">Dream</span></h1>
-      <p>High-energy rock band delivering electrifying performances that ignite crowds and create unforgettable musical experiences.</p>
+      <p>High-energy rock band delivering electrifying performances that ignite crowds and create unforgettable musical
+        experiences.</p>
       <div class="hero-buttons">
         <a href="#events" class="btn btn-primary">View Upcoming Shows</a>
         <a href="#media" class="btn btn-secondary">Listen to Our Music</a>
@@ -45,6 +49,42 @@
       </div>
     </div>
   </header>
+  <!-- END Hero Section -->
+
+  <!-- Events Section -->
+  <section id="events" class="events-section">
+    <div class="container section-container">
+      <h2 class="section-title">Upcoming Events</h2>
+      <p class="section-subtitle">Don't miss our electrifying live performances</p>
+      <div class="event-list" id="event-list-container">
+        Loading events...
+      </div>
+    </div>
+  </section>
+  <!-- END Events Section -->
+
+  <!-- Photo Gallery Section -->
+  <section id="gallery" class="gallery-section">
+    <div class="container section-container">
+      <h2 class="section-title">Photo Gallery</h2>
+      <p class="section-subtitle">Capturing the energy and passion of our live performances</p>
+      <div class="gallery-grid">
+        <img src="assets/images/singer1.jpg" alt="Live performance 1" />
+        <img src="assets/images/microphone.jpg" alt="Microphone closeup" />
+        <img src="assets/images/band_silhouette.jpg" alt="Band silhouette" />
+        <img src="assets/images/fitness.jpg" alt="Live performance 2" />
+        <img src="assets/images/singer1.jpg" alt="Live performance 3" />
+        <img src="assets/images/concert2.jpg" alt="Concert crowd" />
+      </div>
+      <div class="gallery-share">
+        <p>Share our photos:</p>
+        <a href="#" aria-label="Facebook" class="share-icon fb"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+        <a href="#" aria-label="Twitter" class="share-icon tw"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+        <a href="#" aria-label="Instagram" class="share-icon insta"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+      </div>
+    </div>
+  </section>
+  <!-- END Photo Gallery Section -->
 
   <!-- About Section -->
   <section id="about" class="about-section">
@@ -54,11 +94,14 @@
         <img class="about-image" src="assets/images/singer1.jpg" alt="Lead Singer Performing" />
         <div class="about-text">
           <p>
-            TODO - Formed in 2018, Fever Dream has been electrifying audiences with our unique blend of alternative rock, progressive metal, and electronic elements. 
+            TODO - Formed in 2024, Fever Dream has been electrifying audiences with our unique blend of alternative
+            rock, progressive metal, and electronic elements.
             Our high-energy performances and innovative sound have earned us a dedicated following across the region.
           </p>
           <p>
-            With three studio albums and countless live performances under our belt, we continue to push the boundaries of modern rock music while staying true to our roots of raw, emotional storytelling through powerful melodies and driving rhythms.
+            With three studio albums and countless live performances under our belt, we continue to push the boundaries
+            of modern rock music while staying true to our roots of raw, emotional storytelling through powerful
+            melodies and driving rhythms.
           </p>
           <p class="genre-list">
             <span class="genre alt">Alternative Rock</span>
@@ -91,100 +134,10 @@
       </div>
     </div>
   </section>
-
-  <!-- Photo Gallery Section -->
-  <section id="gallery" class="gallery-section">
-    <div class="container section-container">
-      <h2 class="section-title">Photo Gallery</h2>
-      <p class="section-subtitle">Capturing the energy and passion of our live performances</p>
-      <div class="gallery-grid">
-        <img src="assets/images/singer1.jpg" alt="Live performance 1" />
-        <img src="assets/images/microphone.jpg" alt="Microphone closeup" />
-        <img src="assets/images/band_silhouette.jpg" alt="Band silhouette" />
-        <img src="assets/images/fitness.jpg" alt="Live performance 2" />
-        <img src="assets/images/singer1.jpg" alt="Live performance 3" />
-        <img src="assets/images/concert2.jpg" alt="Concert crowd" />
-      </div>
-      <div class="gallery-share">
-        <p>Share our photos:</p>
-        <a href="#" aria-label="Facebook" class="share-icon fb"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
-        <a href="#" aria-label="Twitter" class="share-icon tw"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
-        <a href="#" aria-label="Instagram" class="share-icon insta"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Events Section -->
-  <section id="events" class="events-section">
-    <div class="container section-container">
-      <h2 class="section-title">Upcoming Events</h2>
-      <p class="section-subtitle">Don't miss our electrifying live performances</p>
-
-      <div class="event-list">
-        <article class="event-card">
-          <div class="event-date orange-bg">
-            <span class="month">DEC</span>
-            <span class="day">15</span>
-          </div>
-          <div class="event-details">
-            <h3 class="event-name">Fever Dream Live at The Underground</h3>
-            <p class="event-meta">
-              <span class="icon">📍</span> The Underground - Downtown
-              <span class="icon">⏰</span> 8:00 PM
-              <span class="icon">🎟️</span> $25
-            </p>
-            <p class="event-description">Join us for an unforgettable night of rock and roll featuring songs from our latest album plus fan favorites.</p>
-          </div>
-          <div class="event-actions">
-            <!-- <a href="#" class="btn btn-primary">Get Tickets</a> -->
-            <a href="#" class="btn btn-share">Share</a>
-          </div>
-        </article>
-
-        <article class="event-card">
-          <div class="event-date purple-bg">
-            <span class="month">JAN</span>
-            <span class="day">20</span>
-          </div>
-          <div class="event-details">
-            <h3 class="event-name">New Year Rock Festival</h3>
-            <p class="event-meta">
-              <span class="icon">📍</span> City Park Amphitheater
-              <span class="icon">⏰</span> 7:00 PM
-              <span class="icon">🎟️</span> $35
-            </p>
-            <p class="event-description">Headlining the annual New Year Rock Festival with special guests and surprise collaborations.</p>
-          </div>
-          <div class="event-actions">
-            <!-- <a href="#" class="btn btn-primary">Get Tickets</a> -->
-            <a href="#" class="btn btn-share">Share</a>
-          </div>
-        </article>
-
-        <article class="event-card">
-          <div class="event-date orange-bg">
-            <span class="month">FEB</span>
-            <span class="day">14</span>
-          </div>
-          <div class="event-details">
-            <h3 class="event-name">Valentine's Rock Night</h3>
-            <p class="event-meta">
-              <span class="icon">📍</span> Harmony Hall
-              <span class="icon">⏰</span> 8:30 PM
-              <span class="icon">🎟️</span> $30
-            </p>
-            <p class="event-description">Intimate acoustic performance featuring our ballads and fan-requested songs.</p>
-          </div>
-          <div class="event-actions">
-            <!-- <a href="#" class="btn btn-primary">Get Tickets</a> -->
-            <a href="#" class="btn btn-share">Share</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+  <!-- END About Section -->
 
   <!-- Media Section -->
+  <!--
   <section id="media" class="media-section">
     <div class="container section-container">
       <h2 class="section-title">Music & Videos</h2>
@@ -233,6 +186,7 @@
       </div>
     </div>
   </section>
+-->
 
   <!-- Contact Section -->
   <section id="contact" class="contact-section">
@@ -292,6 +246,10 @@
       </div>
     </div>
   </section>
+  <!-- END Contact Section -->
+
+  <script src="js/event-loader.js"></script>
 
 </body>
+
 </html>
