@@ -270,19 +270,12 @@ body {
 }
 
 .genre-list .genre {
+    color: #6948ff;
     cursor: default;
 }
 
 .genre-list .alt {
-    color: #6948ff;
-}
-
-.genre-list .prog {
     color: var(--primary-color);
-}
-
-.genre-list .elec {
-    color: #6948ff;
 }
 
 /* Band Members */
@@ -787,7 +780,8 @@ body {
 }
 
 .social-item:hover {
-    background-color: #22272b;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.02); /* Slight grow on hover */
 }
 
 .social-item img {
