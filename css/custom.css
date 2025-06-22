@@ -1,0 +1,6 @@
+/* More custom Styles Fever Dream Website */
+.disabled-link {
+    pointer-events: none; /* Prevents cursor changes and click events */
+    opacity: 0.6;        /* Makes it look faded */
+    cursor: not-allowed; /* Changes cursor to a "no" symbol */
+}
