@@ -93,7 +93,7 @@ body {
 /* Hero Section */
 .hero {
     position: relative;
-    background: url('../assets/images/band_silhouette.jpg') center center/cover no-repeat;
+    background: url('../assets/images/band_silhouette.webp') center center/cover no-repeat;
     height: 90vh;
     display: flex;
     align-items: center;
