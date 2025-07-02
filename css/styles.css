@@ -821,6 +821,25 @@ body {
     color: #8ea4cc88;
 }
 
+/* Visually hide the H1 (for accessibility) */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap; /* Added for screen readers */
+}
+
+/* logo image style */
+.header-logo {
+    max-width: 100%; /* Ensure the image never overflows its parent */
+    height: auto;    /* Maintain aspect ratio when scaling */
+}
+
 /* Responsive */
 @media (max-width: 850px) {
     .about-content {
