@@ -845,19 +845,18 @@ body {
 }
 
 .footer {
-    font-size: clamp(1rem, 2vw, 1.2rem); /* Responsive font size */
+    font-size: clamp(0.8rem, 2vw, 1rem); /* Responsive font size */
     
     line-height: 1.6;
+    margin-top: 40px;
     margin-bottom: 25px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     word-wrap: break-word; /* Ensure long words break to prevent overflow */
     overflow-wrap: break-word; /* Modern alternative */
-
-    margin-top: 40px;
-    font-size: 0.8rem;
     color: #888;
+    text-align: center
 }
 
 /* Responsive */
