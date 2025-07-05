@@ -835,13 +835,32 @@ body {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
-    white-space: nowrap; /* Added for screen readers */
+    white-space: nowrap;
+    /* Added for screen readers */
 }
 
 /* logo image style */
 .header-logo {
-    max-width: 100%; /* Ensure the image never overflows its parent */
-    height: auto;    /* Maintain aspect ratio when scaling */
+    max-width: 100%;
+    /* Ensure the image never overflows its parent */
+    height: auto;
+    /* Maintain aspect ratio when scaling */
+}
+
+.footer {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    /* Responsive font size */
+    line-height: 1.6;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word; /* Ensure long words break to prevent overflow */
+    overflow-wrap: break-word; /* Modern alternative */
+
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #888;
 }
 
 /* Responsive */
